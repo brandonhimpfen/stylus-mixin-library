@@ -1,0 +1,24 @@
+/* Border Radius
+   Multiple Side Usage: @include border-radius(top left, top right, bottom right, bottom left);
+   Multiple Side Example: @include border-radius(5px 10px 15px 20px);
+   Single Side Usage: @include border-top-radius(5px); */
+
+/* Multiple Sides */
+border-radius(n)
+  -webkit-border-radius n
+  -moz-border-radius n
+  border-radius n
+
+/* Multiple Side */
+border-top-radius(n)
+  border-top-left-radius n
+  border-top-right-radius n
+border-left-radius(n)
+  border-bottom-left-radius n
+  border-top-left-radius n
+border-bottom-radius(n)
+  border-bottom-left-radius n
+  border-bottom-right-radius n
+border-right-radius(n)
+  border-bottom-right-radius n
+  border-top-right-radius n

@@ -1,0 +1,74 @@
+/* Run Tests */
+.border-radius {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+.border-top-radius {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.border-left-radius {
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.border-bottom-radius {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.border-right-radius {
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.border {
+  border: 1px solid #000;
+}
+.border-all {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #000;
+}
+.size {
+  width: 50px;
+  height: 100px;
+}
+.margin {
+  margin: 20px;
+}
+.margin-all {
+  margin-top: 1px;
+  margin-right: 2px;
+  margin-bottom: 3px;
+  margin-left: 4px;
+}
+.padding {
+  padding: 20px;
+}
+.padding-all {
+  padding-top: 1px;
+  padding-right: 2px;
+  padding-bottom: 3px;
+  padding-left: 4px;
+}
+.border-image {
+  border-image-source: url("border.png");
+  border-image-slice: 100%;
+  border-image-width: 1;
+  border-image-outset: 0;
+  border-image-repeat: stretch;
+  -webkit-border-image: url("border.png") 100% 1 0 stretch;
+  -moz-border-image: url("border.png") 100% 1 0 stretch;
+  -ms-border-image: url("border.png") 100% 1 0 stretch;
+  -o-border-image: url("border.png") 100% 1 0 stretch;
+}
